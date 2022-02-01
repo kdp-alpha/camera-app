@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.back-btn {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 5rem;
+    right: 4rem;
+}
+.back-btn:hover{
+    cursor: pointer;
+}
+.gallery-cont {
+    background-color: lightblue;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.media-cont {
+    height: 15rem;
+    width: 15rem;
+    border: 10px solid white;
+    margin: 2rem;
+}
+.media {
+    height: calc(100% - 4rem);
+    
+}
+
+.media > * {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+.action-btn {
+    height: 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download {
+    background-color: brown;
+}
+.delete {
+    background-color: rebeccapurple;
+}
+.delete:hover{
+    cursor: pointer;
+}
+.download:hover{
+    cursor: pointer;
+}
